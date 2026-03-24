@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "m0ex04",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m0ex04",
+                "resourceId": "/m0ex04"
+            }
+        },
+        {
+            "name": "m0ex03",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m0ex03",
+                "resourceId": "/m0ex03"
+            }
+        },
+        {
+            "name": "m1ex03",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m1ex03",
+                "resourceId": "/m1ex03"
+            }
+        },
+        {
+            "name": "m1ex02",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m1ex02",
+                "resourceId": "/m1ex02"
+            }
+        },
+        {
+            "name": "m1ex04",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m1ex04",
+                "resourceId": "/m1ex04"
+            }
+        },
+        {
+            "name": "m1ex05",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "m1ex05",
+                "resourceId": "/m1ex05"
+            }
+        }
+    ]
+}
