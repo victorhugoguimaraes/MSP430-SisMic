@@ -1,7 +1,7 @@
 ******************************************************************************
-                  MSP430 Linker Unix v21.6.1                   
+                  MSP430 Linker PC v21.6.1                     
 ******************************************************************************
->> Linked Tue Mar 24 19:11:13 2026
+>> Linked Thu Mar 26 11:00:16 2026
 
 OUTPUT FILE NAME:   <m1ex02.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00004400
@@ -207,12 +207,12 @@ MODULE SUMMARY
 
        Module                       code   ro data   rw data
        ------                       ----   -------   -------
-    ./
+    .\
        m1ex2.obj                    28     0         8      
     +--+----------------------------+------+---------+---------+
        Total:                       28     0         8      
                                                             
-    /home/victor/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib/rts430x_lc_rd_eabi.lib
+    C:\ti\ccs2050\ccs\tools\compiler\ti-cgt-msp430_21.6.1.LTS\lib\rts430x_lc_rd_eabi.lib
        copy_decompress_lzss.c.obj   118    0         0      
        autoinit.c.obj               84     0         0      
        boot.c.obj                   28     2         0      
