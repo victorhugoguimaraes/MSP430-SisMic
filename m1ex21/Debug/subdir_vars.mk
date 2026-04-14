@@ -9,21 +9,21 @@ CMD_SRCS += \
 ../lnk_msp430f5529.cmd 
 
 ASM_SRCS += \
-../m1ex20.asm 
+../m1ex21.asm 
 
 OBJS += \
-./m1ex20.obj 
+./m1ex21.obj 
 
 ASM_DEPS += \
-./m1ex20.d 
+./m1ex21.d 
 
 OBJS__QUOTED += \
-"m1ex20.obj" 
+"m1ex21.obj" 
 
 ASM_DEPS__QUOTED += \
-"m1ex20.d" 
+"m1ex21.d" 
 
 ASM_SRCS__QUOTED += \
-"../m1ex20.asm" 
+"../m1ex21.asm" 
 
 
