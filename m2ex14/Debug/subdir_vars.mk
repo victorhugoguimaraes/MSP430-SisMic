@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430f5529.cmd 
+
+C_SRCS += \
+../m2ex14.c 
+
+C_DEPS += \
+./m2ex14.d 
+
+OBJS += \
+./m2ex14.obj 
+
+OBJS__QUOTED += \
+"m2ex14.obj" 
+
+C_DEPS__QUOTED += \
+"m2ex14.d" 
+
+C_SRCS__QUOTED += \
+"../m2ex14.c" 
+
+

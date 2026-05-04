@@ -47,12 +47,12 @@
             }
         },
         {
-            "name": "m1ex21",
+            "name": "m2ex14",
             "type": "ccs-debug",
             "request": "launch",
             "projectInfo": {
-                "name": "m1ex21",
-                "resourceId": "/m1ex21"
+                "name": "m2ex14",
+                "resourceId": "/m2ex14"
             }
         }
     ]
