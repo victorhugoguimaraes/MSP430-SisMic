@@ -45,15 +45,6 @@
                 "name": "m1ex04",
                 "resourceId": "/m1ex04"
             }
-        },
-        {
-            "name": "m2ex14",
-            "type": "ccs-debug",
-            "request": "launch",
-            "projectInfo": {
-                "name": "m2ex14",
-                "resourceId": "/m2ex14"
-            }
         }
     ]
 }
