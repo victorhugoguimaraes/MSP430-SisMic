@@ -3,7 +3,7 @@
 
 void main(void)
 {
-    WDTCTL = WDTPW | WDTHOLD; // desliga o cao de guarda
+    WDTCTL = WDTPW | WDTHOLD; 
 
     P1DIR |= BIT2; // coloca o pino P1.2 como saída
     P1SEL |= BIT2; // coloca o controle do pino P1.2 para o timer
@@ -31,7 +31,7 @@ void main(void)
     TA0CTL = TASSEL_1 | MC_1 | TACLR; // relogio ACLK, modo up, zera o contador
 
     // configuracao do timer A1, (cronometro do debounce)
-    TA1CCR0 = 655;       // tempo de debounce de aproximadamente 20ms com ACLK = 32768Hz
+    TA1CCR0 = (32768 * 0,020);       // tempo de debounce de aproximadamente 20ms com ACLK = 32768Hz
     TA1CCTL0 = CCIE;     // liga a interrupcao do canal 0 do Timer A1
     TA1CTL = TASSEL_1 | MC_0 | TACLR; // relogio ACLK, timer parado, zera o contador
 
